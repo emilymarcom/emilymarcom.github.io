@@ -1,0 +1,122 @@
+/* CSS Reset */
+#element { margin:0; padding:0; font-size:100%; line-height:1; }
+ 
+...
+/* #element rules: */
+#element { margin:5px 0 10px; font-size:13px; line-height:1.5; }
+
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Shrikhand');
+
+
+#contact {
+	font-size: 15px;
+	font-family: "Verdana";
+}
+
+p {
+	text-align: center;
+	font-family: "arial";
+	font-size: 40px;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	font-family: 'Shrikhand', cursive;
+	color: #FF0060;
+
+}
+
+
+#slogan {
+
+	font-size: 50px;
+	font-family: 'ABeeZee', sans-serif;
+	font-style: italic;
+
+}
+
+li {
+	font-family: "arial";
+	font-size: 30px;
+	text-align: center;
+	list-style-position: inside;
+
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a {
+	font-size: 15px;
+	font-family: "Verdana";
+}
+
+body {
+background-color: #FFF7C9;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
